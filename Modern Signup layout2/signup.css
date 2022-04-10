@@ -1,0 +1,84 @@
+body
+{
+    background-color:white;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    Font-family: 'Poppins', sans-serif;
+  font-family: 'Acme', sans-serif;
+}
+.right-container
+{   background-color:black; 
+    width: 99vw;
+    height: 99vh;
+    clip-path: polygon(72% 0, 100% 0, 100% 60%, 100% 100%, 36% 100%);
+
+}
+.left-container
+{
+    position:absolute;
+    top: 0%;
+    width: 50vw;
+    height: 99vh;
+}
+.card
+{
+    background-color: white;
+    position:absolute;
+    width: 20%;
+    padding: 2%;
+    left: 68%;
+    top: 15%;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    line-height: 1px;
+    box-shadow: 2px 2px 10px 5px grey;
+    z-index: 3;
+}
+.left
+{
+    left: 20%;
+    width: 50%;
+    background: linear-gradient(rgb(16, 16, 16), rgb(6, 6, 6));
+    line-height: normal;
+    color: white;
+    margin-top: 8%;
+}
+
+
+.fa-brands
+{
+    font-size: 40px;
+    padding: 2%;
+    cursor: pointer;
+}
+h3{font-size: 40px;}
+h5{font-size: 20px; color: rgba(103, 99, 99, 0.79);}
+
+input
+{
+    width: 90%;
+    font-size: 13px;
+    padding:4%;
+    border-radius: 8px;
+    border: 2px solid rgb(78, 75, 75);
+    margin-top: 2%;
+}
+button
+{
+    width: 100%;
+    padding:4%;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: 2px solid grey;
+    margin-top: 5%;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+button:hover
+{
+    background-color: grey;
+    color: rgb(19, 19, 19);
+}
