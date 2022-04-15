@@ -82,3 +82,20 @@ button:hover
     background-color: grey;
     color: rgb(19, 19, 19);
 }
+
+
+@media(max-width:800px)
+{
+    .card
+    {
+        width: 80vw;
+        left: 10vw;
+    }
+
+    .right-container, .right
+{   
+    clip-path: none;
+    margin-top: 70vh;
+
+}
+}
