@@ -56,3 +56,14 @@ button:hover
     background-color: rgb(82, 215, 82);
     color: rgb(19, 19, 19);
 }
+
+
+@media(max-width:800px)
+{
+    .card
+    {
+        width: 80vw;
+        left: 10vw;
+    
+    }
+}
