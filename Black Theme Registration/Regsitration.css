@@ -138,3 +138,13 @@ background-color:white;}
     background-color:black;
   }
 }
+
+
+@media(max-width:800px)
+{
+  .box
+  {
+    width: 80vw;
+    left: 10vw;
+  }
+}
